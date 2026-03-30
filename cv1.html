@@ -7,18 +7,29 @@
     <title>CV</title>
 </head>
 <body>
-    <h1>Hoja de Vida</h1>
-    <h1>Domenica Saritama</h1>
-    <h2>[Estudiante]</h2>
+    <h1 style="text-align: center;">Hoja de Vida</h1>
+    <h1 style="color: rgb(45, 21, 154);">Domenica Saritama</h1>
+    <h2 style="color: rgb(45, 21, 154);">[Estudiante]</h2>
     <br>
-    <h2>Perfil</h2>
-    <p>Persona responsable, proactiva y con experiencia en atención al cliente y ventas. 
+    <!--Usamos contenedor div para agrupar nuestra informacion,-->
+    <!--Agregamos anchura  un borde solido al texto-->
+    <!--Centramos el texto-->
+    <div style="width: 70%; border: solid 1px; text-align: center;">
+    <h2 style="color: brown;">Perfil</h2>
+    <p style="color: blueviolet;">Persona responsable, proactiva y con experiencia en atención al cliente y ventas. 
         Capacidad para trabajar en equipo, seguir normas, aprender rápido y mantener un buen trato con los clientes. 
         Estudios de 08:00 a 12:00.
         Disponibilidad total a partir de las 12:30 p. m.</p>
+    </div>
+    
+    <!--Agregamos un color diferente-->
+    <div style="color: blueviolet;">
     <h2>Educacion</h2>
     <p>Cursando la carrera de Desarrollo de Software en el Instituto Tecnologico Quito</p>
-    <h2>Experiencia</h2>
+    </div>
+
+    <div style="width: 70%;">
+    <h2 style="color: brown;">Experiencia</h2>
     <p>GLOBAL VENTAS: multi tienda (artículos de belleza, ropa, utensilios, joyeria, etc.) 
         Limpieza, atención al cliente, asesoría y persuasión al cliente.</p>
     <p>SARISTAR:Cafetería Lojana. 
@@ -27,14 +38,25 @@
         Atención directa al cliente, asesoría en productos, 
         orden y reposición de mercadería, 
         cumplimiento de normas de la tienda y trabajo en equipo.</p>
-    <h2>Informacion de Contacto</h2>
-    <p>Telefono: 0995884283</p>
+    </div>
+    
+    <div>
+    <h2 style="color: brown;">Informacion de Contacto</h2>
     <p>E-mail: domenica.saritama@itq.edu.ec</p>
     <p>Direccion: San Juan de Calderon, Calle Miguel Medina, Jakarta 128.</p>
-    <h2>Referencias Personales</h2>
+    </div>
+
+    <div>
+    <h2 style="color: brown;">Referencias Personales</h2>
     <p>Sr. Angel del Castillo: 099 532 8816</p>
     <p>Sra. Alexandra Paguay: 099 902 1370</p>
     <p>Sra. Jaqueline Untuña: 096 730 3841</p>
+    </div>
 
+    <!--Añadimos un vinculo directo con el otro archivo HTML-->
+    <div>
+        <h2>Contacame por...</h2>
+        <a href="adicional.html">Accede directamene</a>
+    </div>
 </body>
 </html>
